@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: cloudconfigserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/NavneetPal/spring-app-config.git
+          clone-on-start: true
+server:
+  port: 8888
